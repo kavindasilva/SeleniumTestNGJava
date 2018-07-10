@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19234" started-at="2018-07-10T11:02:40Z" finished-at="2018-07-10T11:03:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19234" started-at="2018-07-10T11:02:40Z" finished-at="2018-07-10T11:03:00Z">
+      <class name="pkg1.Testfile1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pkg1.Testfile1@7fa833]" name="setUp" is-config="true" duration-ms="3962" started-at="2018-07-10T11:02:40Z" finished-at="2018-07-10T11:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="kscus1()[pri:1, instance:pkg1.Testfile1@7fa833]" name="kscus1" duration-ms="10016" started-at="2018-07-10T11:02:44Z" finished-at="2018-07-10T11:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kscus1 -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:2, instance:pkg1.Testfile1@7fa833]" name="verifyHomepageTitle" duration-ms="5148" started-at="2018-07-10T11:02:54Z" finished-at="2018-07-10T11:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="T3()[pri:3, instance:pkg1.Testfile1@7fa833]" name="T3" duration-ms="0" started-at="2018-07-10T11:03:00Z" finished-at="2018-07-10T11:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T3 -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:pkg1.Testfile1@7fa833]" name="closeAll" is-config="true" duration-ms="74" started-at="2018-07-10T11:03:00Z" finished-at="2018-07-10T11:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- pkg1.Testfile1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
