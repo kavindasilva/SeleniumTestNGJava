@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pkg1.Testfile1">
+      <class name="pkg1.Exercise1">
         <methods>
-          <include name="verifyHomepageTitle"/>
-          <include name="setUp"/>
+          <include name="inits"/>
+          <include name="beds3"/>
+          <include name="exits"/>
         </methods>
-      </class> <!-- pkg1.Testfile1 -->
+      </class> <!-- pkg1.Exercise1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

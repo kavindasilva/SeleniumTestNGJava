@@ -26,7 +26,7 @@ public class Testfile1 {
         System.setProperty("webdriver.chrome.driver", driverPath);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(baseUrl);
+        //driver.get(baseUrl);
     }
 /**/
     
@@ -34,7 +34,7 @@ public class Testfile1 {
     //@Test(enabled=false)
     public void kscus1() throws InterruptedException{
     	System.out.print("custom 1 ");
-    	//driver.get(baseUrl);
+    	driver.get(baseUrl);
     	//driver.close();
     	//Assert.assertEquals(driver.getTitle(), "s");
     	//driver.wait(2000);
